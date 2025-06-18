@@ -19,7 +19,7 @@ const CreateTaskForm = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post(process.env.NEXT_PUBLIC_BASE_URL + "tasks", task, {
+      await axios.post(process.env.NEXT_PUBLIC_BASE_URL, task, {
         headers: {
           "Content-Type": "application/json",
         },
