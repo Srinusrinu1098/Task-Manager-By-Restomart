@@ -19,12 +19,12 @@ export default function Home() {
             </button>
           </Link>
           <Link href={"/delete"}>
-            <button className="w-full bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-xl transition">
+            <button className="w-full bg-red-500 hover:bg-red-600 cursor-pointer text-white py-2 px-4 rounded-xl transition">
               Delete Task
             </button>
           </Link>
           <Link href={"/home"}>
-            <button className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-xl transition">
+            <button className="w-full bg-yellow-500 hover:bg-yellow-600 cursor-pointer text-white py-2 px-4 rounded-xl transition">
               Update Task
             </button>
           </Link>
