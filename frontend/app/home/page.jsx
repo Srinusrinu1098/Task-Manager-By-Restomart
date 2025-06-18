@@ -14,9 +14,7 @@ function AllTasks() {
   }, []);
 
   const getAllTheTaskData = async () => {
-    const response = await axios.get(
-      process.env.NEXT_PUBLIC_BASE_URL + "tasks"
-    );
+    const response = await axios.get(process.env.NEXT_PUBLIC_BASE_URL);
     const result = response.data;
     setTasks(result);
     setLoading(false);

@@ -14,9 +14,7 @@ function DeleteTasks() {
   }, []);
 
   const getAllTheTaskData = async () => {
-    const response = await axios.get(
-      process.env.NEXT_PUBLIC_BASE_URL + "tasks"
-    );
+    const response = await axios.get(process.env.NEXT_PUBLIC_BASE_URL);
     const result = response.data;
     setTasks(result);
     console.log(result);
@@ -26,7 +24,7 @@ function DeleteTasks() {
   const DeleteTask = async (id) => {
     setDeletingId(id);
     try {
-      await axios.delete(process.env.NEXT_PUBLIC_BASE_URL + "tasks/" + id);
+      await axios.delete(process.env.NEXT_PUBLIC_BASE_URL + id);
       alert("✅ Task Deleted Succesfully");
       getAllTheTaskData();
     } catch (e) {
