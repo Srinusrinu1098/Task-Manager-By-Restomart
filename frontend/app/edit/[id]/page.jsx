@@ -22,7 +22,7 @@ const EditTask = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.put(`http://localhost:25125/tasks/${id}`, task, {
+      await axios.put(process.env.NEXT_PUBLIC_BASE_URL + "tasks/" + id, task, {
         headers: {
           "Content-Type": "application/json",
         },
