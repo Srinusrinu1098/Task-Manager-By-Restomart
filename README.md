@@ -81,3 +81,28 @@ Visit the frontend app in your browser:
 http://localhost:3000
 ```
 
+### Landing page 
+![Screenshot 2025-06-18 152432](https://github.com/user-attachments/assets/6b752e12-6cfa-4ebf-9b01-f31b1adfeb98)
+
+### Create Task 
+![Task create](https://github.com/user-attachments/assets/54b73aba-835d-47e7-beed-de1676b7a087)
+
+### All Tasks with Filtering 
+![Screenshot 2025-06-18 152647](https://github.com/user-attachments/assets/18a9221b-8362-48fc-9e3a-6d9108d48200)
+
+### Task Edit 
+![Task Editing](https://github.com/user-attachments/assets/4387749f-f0e7-4c91-a316-5ee72968959e)
+
+### Task Deleteing
+![Task Deleting](https://github.com/user-attachments/assets/cde5f4c9-c970-43cf-bd4f-350f4464ab87)
+
+### Not Found 
+![Not found ](https://github.com/user-attachments/assets/e5a06ac0-9cbf-4910-a42e-331481744052)
+
+
+
+
+
+
+
+
